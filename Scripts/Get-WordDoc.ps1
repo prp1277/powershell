@@ -1,0 +1,1 @@
+Get-Content -Path C:\Users\prp12.000\GitHub-Repos\powershell\src\redditSubs.csv | Out-Host
