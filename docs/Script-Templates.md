@@ -14,7 +14,7 @@ This is the extended description of the cmdlet
 This is the name of a remote computer
 .Example
 Connecting to remote computer
-DiskInfo -computername patricksthinkpa
+DiskInfo -computername
 #>
  param(
      [Parameter(Mandatory=$true)]

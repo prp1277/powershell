@@ -1,0 +1,77 @@
+h1,
+h5,
+th {
+  text-align: center;
+}
+
+table {
+  margin: auto;
+  font-family: Segoe UI;
+  box-shadow: 10px 10px 5px #888;
+  border: thin ridge grey;
+}
+
+th {
+  background: #0046c3;
+  color: #fff;
+  max-width: 400px;
+  padding: 5px 10px;
+}
+
+td {
+  font-size: 11px;
+  padding: 5px 20px;
+  color: #000;
+}
+
+tr {
+  background: #b8d1f3;
+}
+
+tr:nth-child(even) {
+  background: #dae5f4;
+}
+
+tr:nth-child(odd) {
+  background: #b8d1f3;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #28a745;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc35;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  background-image: url('https://picsum.photos/1290/1080');
+  opacity: 0.75;
+  filter: alpha(opacity=75);
+}
+
+h3 {
+  opacity: 0.75;
+}
